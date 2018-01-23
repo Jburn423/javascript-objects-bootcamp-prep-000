@@ -8,4 +8,4 @@ function updatePlaylist (playlist, artistName, songTitle){
 function removeFromPlaylist(playlist, artistName){
   delete playlist.songTitle;
   return playlist;
-}removeFromPlaylist(playlist, 'Kanye : Gold Digger');
+}removeFromPlaylist(playlist, "Kanye" : "Gold Digger");
