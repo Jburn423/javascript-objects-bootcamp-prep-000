@@ -6,6 +6,6 @@ function updatePlaylist (playlist, artistName, songTitle){
 }updatePlaylist(playlist, 'Phil Ochs', 'Here\'s to the State of Mississippi');
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.songTitle;
+  delete {playlist : 'songTitle'};
   return playlist;
 }removeFromPlaylist(playlist, "Kanye" : "Gold Digger");
